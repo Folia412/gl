@@ -25,5 +25,5 @@ class TestListMethods(unittest.TestCase):
         self.assertIsNot(listo1[4], listo2[4])
 
 
-if name == 'main':
+if __name__ == '__main__':
     unittest.main()
