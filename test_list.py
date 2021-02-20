@@ -15,13 +15,13 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual(2*[1, 3, 5], [1, 3, 5, 1, 3, 5])
 
     def test_1_olia_futurska_fi94(self):
-        listo1=[1,2,3,4,5,6,7]
-        listo2=[1,2,3,4,6,6,7]
+        listo1 = [1, 2, 3, 4, 5, 6, 7]
+        listo2 = [1, 2, 3, 4, 6, 6, 7]
         self.assertIs(listo1[2], listo2[2])
 
     def test_2_olia_futurska_fi94(self):
-        listo1=[1,2,3,4,5,6,7]
-        listo2=[1,2,3,4,6,6,7]
+        listo1 = [1, 2, 3, 4, 5, 6, 7]
+        listo2 = [1, 2, 3, 4, 6, 6, 7]
         self.assertIsNot(listo1[4], listo2[4])
 
 
